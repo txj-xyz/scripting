@@ -22,8 +22,5 @@ mkdir -p ~/.kube
 #Install HELM
 sudo curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
-sleep 5;
-sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
-#COMPLETE
 clear
 echo "COMPLETED."
