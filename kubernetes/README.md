@@ -14,8 +14,5 @@ curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/helm-
 k3s binary download + install:
 
 ```bash
-apt install curl -y; \
-wget https://github.com/k3s-io/k3s/releases/download/v1.23.6%2Bk3s1/k3s; \
-chmod +x k3s; \
-mv k3s /usr/local/bin/;
+curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/k3s-installer.sh | bash
 ```
