@@ -37,3 +37,11 @@ curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/ranch
 ```bash
 curl https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/netplan-static-ip-tool.sh | bash
 ```
+
+`rsync` man-in-the-middle proxy tool, uses your PC / Server as a middle man for a file / recursive folder transfer using `rsync` 
+
+```bash
+wget https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/rsync-middleman.sh; \
+sudo chmod +x rsync-middleman.sh; \
+sudo mv rsync-middleman.sh /usr/local/bin/
+```
