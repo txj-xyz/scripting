@@ -27,5 +27,5 @@ curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/k3s-i
 `netplan` static IP configuration tool.
 
 ```bash
-curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/helm-kubectl.sh | bash
+curl https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/netplan-static-ip-tool.sh | bash
 ```
