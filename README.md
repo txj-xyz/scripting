@@ -4,9 +4,7 @@ This folder has everything related to scripting functionality, this can include 
 
 ---
 
-# Scripts
-Kubernetes Related: 
-[`/kubernetes`](https://github.com/txj-xyz/scripting/tree/master/kubernetes/)
+## Kubernetes Related: [`/kubernetes`](https://github.com/txj-xyz/scripting/tree/master/kubernetes/)
 
 `helm` + `kubectl` installer:
 ```bash
@@ -29,8 +27,7 @@ curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/ranch
 
 
 ---
-*NIX Related: 
-[`/bash`](https://github.com/txj-xyz/scripting/tree/master/bash/)
+## *NIX Related: [`/bash`](https://github.com/txj-xyz/scripting/tree/master/bash/)
 
 `netplan` static IP configuration tool.
 
