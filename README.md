@@ -19,6 +19,14 @@ curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/helm-
 curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/k3s-installer.sh | bash
 ```
 
+Rancher Docker Single-Node system cleaner:
+ - Removes all related storage to Rancher components and its local storage.
+
+```bash
+curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/rancher-clean-node.sh | bash
+```
+
+
 
 ---
 *NIX Related: 
