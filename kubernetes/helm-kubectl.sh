@@ -18,7 +18,7 @@ sudo rm kubectl
 
 #Copy K3s config to local directory
 mkdir -p ~/.kube
-if [[ -f /etc/rancher/k3s/k3s.yaml ]]; do
+if [ -f /etc/rancher/k3s/k3s.yaml ]; do
     cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
 done;
 
