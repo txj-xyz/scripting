@@ -14,29 +14,29 @@
 
 * [Helm + Kubectl Installer](/kubernetes/helm-kubectl.sh)
     ```
-    curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/helm-kubectl.sh | bash
+    wget -O - https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/helm-kubectl.sh | bash
     ```
 * [K3S Binary Installer](/kubernetes/k3s-installer.sh)
     ```
-    curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/k3s-installer.sh | bash
+    wget -O - https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/k3s-installer.sh | bash
     ```
 * [Rancher Docker Single-Node System Cleaner](/kubernetes/rancher-clean-node.sh)
     * removes all related storage to Rancher components and its local storage
     <br />
     
     ```
-    curl https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/rancher-clean-node.sh | bash
+    wget -O - https://raw.githubusercontent.com/txj-xyz/scripting/master/kubernetes/rancher-clean-node.sh | bash
     ```
     
 ## [\*POSIX / UNIX](/bash)
 * [SSH Updater Tool](/bash/ssh-updater.sh)
     * updates local ssh version for mostly ubuntu only
     ```
-    curl https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/ssh-updater.sh | bash
+    wget -O - https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/ssh-updater.sh | bash
     ```
 * [Netplan static IP Configuration Tool](/bash/netplan-static-ip-tool.sh)
     ```
-    curl https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/netplan-static-ip-tool.sh | bash
+    wget -O - https://raw.githubusercontent.com/txj-xyz/scripting/master/bash/netplan-static-ip-tool.sh | bash
     ```
 * [Rsync Man-in-the-middle Proxy Tool](/bash/rsync-middleman.sh)
     * uses your PC / Server as a middle man for a file / recursive folder transfer using rsync
